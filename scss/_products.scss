@@ -1,0 +1,94 @@
+.products {
+    margin-bottom: 250px;
+}
+
+.products-title {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.products-text {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.products-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products-card {
+    width: 32%;
+    background: #F8F8F8;
+    margin-bottom: 25px;
+}
+
+.products-card-link {
+    text-decoration: none;
+}
+
+.product-card-img {
+    width: 100%;
+}
+
+.card-items-title {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 24px 0px 16px 16px;
+}
+
+.card-items-text {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 0px 29px 16px 16px;
+}
+
+.card-items-price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 0px 24px 16px;
+}
+
+.btn-box {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.products-btn {
+    text-decoration: none;
+    border: solid 1px #FF6A6A;
+    padding: 15px 39px;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}

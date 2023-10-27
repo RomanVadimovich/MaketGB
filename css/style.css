@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.bg {
+  background: #222222;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.header__left {
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.box-bg {
+  background: #F1E4E6;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-img {
+  width: 100%;
+  margin-left: -175px;
+}
+
+.content-right {
+  border-left: 12px solid #F16D7F;
+  padding-left: 1rem;
+  padding-right: 101px;
+}
+
+.content__title {
+  color: #222;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.content__text {
+  color: #222;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.content__text span {
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.offer {
+  margin-top: 65px;
+  margin-bottom: 96px;
+}
+
+.offer__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.offer__top-items {
+  position: relative;
+}
+
+.offer__top-items-img {
+  filter: brightness(40%);
+}
+
+.offer__top-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.offer__top-items-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.offer__top-items-heading {
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.offer__bottom-items {
+  position: relative;
+}
+
+.offer__bottom-items-img {
+  filter: brightness(40%);
+}
+
+.offer__bottom-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.offer__bottom-items-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.offer__bottom-items-heading {
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.products {
+  margin-bottom: 250px;
+}
+
+.products-title {
+  color: #222;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.products-text {
+  color: #9F9F9F;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.products-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.products-card {
+  width: 32%;
+  background: #F8F8F8;
+  margin-bottom: 25px;
+}
+
+.products-card-link {
+  text-decoration: none;
+}
+
+.product-card-img {
+  width: 100%;
+}
+
+.card-items-title {
+  color: #000;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 24px 0px 16px 16px;
+}
+
+.card-items-text {
+  color: #5D5D5D;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 0px 29px 16px 16px;
+}
+
+.card-items-price {
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0px 0px 24px 16px;
+}
+
+.btn-box {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.products-btn {
+  text-decoration: none;
+  border: solid 1px #FF6A6A;
+  padding: 15px 39px;
+  color: #F26376;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
