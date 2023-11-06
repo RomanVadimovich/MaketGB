@@ -28,19 +28,24 @@
 
 .content {
     display: flex;
-    justify-content: space-between;
     align-items: center
 }
 
+.content-left {
+    width: 50%;
+}
+
 .content-img {
-    width: 100%;
-    margin-left: -175px;
+    max-width: 100%;
 }
 
 .content-right {
+    padding-left: 64px;
+}
+
+.content-right-box {
     border-left: 12px solid #F16D7F;
-    padding-left: 1rem;
-    padding-right: 101px;
+    padding-left: 16px;
 }
 
 .content__title {
@@ -67,5 +72,20 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .content__title {
+        font-size: 44px;
+    }
+
+    .content__text {
+        font-size: 24px;
+
+        span {
+            font-size: 24px;
+        }
     }
 }
