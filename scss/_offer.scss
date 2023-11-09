@@ -79,3 +79,37 @@
     font-weight: 700;
     line-height: normal;
 }
+
+@media (max-width: 600px) {
+    .offer__top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offer__bottom-items-img {
+        min-height: 200px;
+        object-fit: fill;
+    }
+}
+
+@media (max-width: 375px) {
+    .offer__top {
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .offer-link {
+        margin-bottom: 32px;
+        display: inline-block;
+    }
+
+    .offer {
+        margin-bottom: 64px;
+    }
+
+    .offer__bottom-items-img {
+        min-width: 290px;
+        min-height: 111px;
+        object-fit: cover;
+    }
+}

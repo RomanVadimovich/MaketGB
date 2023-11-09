@@ -151,3 +151,23 @@
         margin-top: 32px;
     }
 }
+
+@media (max-width:500px) {
+    .products-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .products-card {
+        width: 100%;
+    }
+
+    .products-card {
+        margin-bottom: 16px;
+    }
+
+    .products {
+        margin-bottom: 80px;
+    }
+}
