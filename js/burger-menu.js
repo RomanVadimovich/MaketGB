@@ -11,5 +11,3 @@ crossClose.addEventListener('click', () => {
 })
 
 
-
-

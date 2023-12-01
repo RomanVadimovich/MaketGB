@@ -1,8 +1,9 @@
 @import 'header';
 @import 'offer';
-@import 'products';
+@import 'cards';
 @import 'footer';
 @import 'product';
+@import 'catalog';
 
 * {
     margin: 0;
@@ -12,6 +13,14 @@
 
 body {
     font-family: 'Lato', sans-serif;
+}
+
+summary {
+    display: block;
+}
+
+summary::-webkit-details-marker {
+    display: none;
 }
 
 .container {
