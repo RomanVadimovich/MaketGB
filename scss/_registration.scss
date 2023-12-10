@@ -1,0 +1,113 @@
+.regist {
+    display: flex;
+    justify-content: space-between;
+}
+
+.regist-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    margin-bottom: 96px;
+}
+
+.regist-title {
+    color: #222;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.regist-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &__info {
+        width: 360px;
+        color: #B1B1B1;
+        font-size: 13px;
+        font-weight: 300;
+        padding: 13px 0px 16px 17px
+    }
+
+    &__box {
+        display: flex;
+        margin-top: 11px;
+        margin-bottom: 33px;
+    }
+
+    &__radio {
+        margin-right: 10px;
+
+    }
+
+
+    &__label {
+        color: #000;
+        font-size: 11px;
+        font-weight: 300;
+        padding-right: 20px;
+    }
+
+}
+
+.regist-text {
+    color: #B1B1B1;
+    font-size: 13px;
+    font-weight: 300;
+    width: 359px;
+    padding-top: 15px;
+}
+
+.regist-button {
+    cursor: pointer;
+    padding: 16px 29px;
+    margin-top: 39px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #F16D7F;
+    border: 1px solid #F16D7F;
+}
+
+.regist-button:hover {
+    color: #F16D7F;
+    background-color: #fff;
+}
+
+.regist-button:hover path {
+    fill: #F16D7F;
+}
+
+.regist-right {
+    margin-top: 64px;
+    margin-left: 128px;
+}
+
+.regist-desk {
+    &__heading {
+        color: #000;
+        font-size: 24px;
+        font-weight: 300;
+        padding-bottom: 22px;
+    }
+
+    &__caption {
+        color: #000;
+        font-size: 24px;
+        font-weight: 300;
+        padding-bottom: 21px;
+    }
+
+    &__text {
+        color: #000;
+        font-size: 24px;
+        font-weight: 300;
+        padding-left: 23px;
+        padding-bottom: 16px;
+
+    }
+}

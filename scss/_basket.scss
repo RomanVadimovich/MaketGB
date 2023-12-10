@@ -86,16 +86,12 @@
         flex-direction: column;
         gap: 57px;
     }
-}
 
-input {
-    border: 1px solid #EAEAEA;
-}
-
-input[value] {
-    margin-left: 20px;
-    padding-left: 25px;
-    box-sizing: border-box;
+    &__input {
+        margin-left: 20px;
+        padding-left: 25px;
+        border: 1px solid #EAEAEA;
+    }
 }
 
 .form {
