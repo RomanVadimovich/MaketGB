@@ -1,6 +1,7 @@
 .regist {
     display: flex;
     justify-content: space-between;
+
 }
 
 .regist-left {
@@ -23,7 +24,7 @@
     gap: 20px;
 
     &__info {
-        width: 360px;
+        max-width: 360px;
         color: #B1B1B1;
         font-size: 13px;
         font-weight: 300;
@@ -102,12 +103,84 @@
         padding-bottom: 21px;
     }
 
+    &__info {
+        padding-bottom: 17px;
+    }
+
     &__text {
         color: #000;
         font-size: 24px;
         font-weight: 300;
         padding-left: 23px;
-        padding-bottom: 16px;
+    }
+}
 
+@media (max-width: 900px) {
+    .regist-right {
+        margin-left: 80px;
+    }
+
+    .regist-desk {
+        &__heading {
+            font-size: 20px;
+        }
+
+        &__caption {
+            font-size: 20px;
+        }
+
+        &__text {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .regist-right {
+        margin-left: 22px;
+    }
+
+    .regist-desk {
+        &__heading {
+            font-size: 16px;
+        }
+
+        &__caption {
+            font-size: 16px;
+        }
+
+        &__text {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+
+    .breadcrumb {
+        justify-content: center;
+    }
+
+    .regist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .regist-left {
+        margin-bottom: 40px;
+    }
+
+    .regist-form {
+        &__info {
+            width: 98%;
+        }
+    }
+
+    .regist-right {
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 100px;
     }
 }
