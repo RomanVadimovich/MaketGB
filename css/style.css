@@ -746,6 +746,51 @@
     padding-bottom: 40px;
   }
 }
+.breadcrumb-bg {
+  background-color: #F8F3F4;
+}
+
+.breadcrumb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.breadcrumb__title {
+  padding-top: 59px;
+  padding-bottom: 59px;
+  color: #F16D7F;
+  font-size: 24px;
+  font-weight: 400;
+}
+.breadcrumb__items {
+  list-style: none;
+}
+.breadcrumb__list {
+  display: inline;
+}
+.breadcrumb__link {
+  text-decoration: none;
+  color: #636363;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.breadcrumb__link:hover {
+  color: #F16D7F;
+}
+
+ul.breadcrumb__items li + li:before {
+  padding: 7px;
+  color: #636363;
+  content: "/ ";
+}
+
+.breadcrumb-text {
+  color: #F16D7F;
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .product {
   margin-bottom: 150px;
 }
@@ -1150,14 +1195,14 @@ label:hover {
   background-color: #ffffff;
 }
 
-.none {
+.hidden {
   display: flex;
   flex-direction: column;
 }
 
 /* slide-box вставлен из Bootstrap */
 @media screen and (max-width: 1023px) {
-  .none {
+  .hidden {
     display: none;
   }
 }
